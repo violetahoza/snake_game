@@ -1,0 +1,45 @@
+WINDOW_WIDTH = 900
+WINDOW_HEIGHT = 700
+GRID_SIZE = 25
+GRID_WIDTH = WINDOW_WIDTH // GRID_SIZE
+GRID_HEIGHT = WINDOW_HEIGHT // GRID_SIZE
+FPS = 12
+
+class Colors:
+    DARK_BG = (20, 25, 40)
+    LIGHT_BG = (30, 35, 50)
+    GRID_LINE = (40, 45, 65)
+
+    FOREST_DARK = (34, 49, 28)     
+    FOREST_LIGHT = (45, 66, 38)     
+    FOREST_ACCENT = (28, 40, 23)    
+    TREE_BROWN = (101, 67, 33)     
+    LEAF_GREEN = (76, 114, 29)      
+    GRASS_GREEN = (85, 107, 47) 
+    
+    SNAKE_HEAD = (34, 139, 34)      
+    SNAKE_HEAD_BORDER = (0, 100, 0) 
+    SNAKE_BODY = (50, 205, 50)     
+    SNAKE_BODY_BORDER = (34, 139, 34) 
+    
+    FOOD_PRIMARY = (220, 20, 60)    
+    FOOD_SECONDARY = (139, 0, 0)    
+    FOOD_GLOW = (255, 69, 0)       
+    
+    TEXT_PRIMARY = (245, 245, 220) 
+    TEXT_SECONDARY = (188, 143, 143) 
+    OVERLAY = (0, 0, 0, 180)       
+    
+    ACCENT_GREEN = (34, 139, 34)
+    ACCENT_BROWN = (160, 82, 45)
+    ACCENT_YELLOW = (255, 215, 0)
+    ACCENT_BLUE = (52, 152, 219)
+
+UP = (0, -1)
+DOWN = (0, 1)
+LEFT = (-1, 0)
+RIGHT = (1, 0)
+
+INITIAL_SPEED = 2
+SPEED_INCREMENT = 0.5
+FOOD_SCORE = 10
